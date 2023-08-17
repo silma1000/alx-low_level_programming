@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_numbers
- * followed by newline
- */
+*print_numbers - print 0123456789
+* owned by Bwave ICT
+*Return: void
+*/
+
 void print_numbers(void)
 {
-	int i;
+	char c;
 
-	for (i = 0; i < 10; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(i + '0');
+	_putchar(c);
 	}
-
 	_putchar('\n');
 }
